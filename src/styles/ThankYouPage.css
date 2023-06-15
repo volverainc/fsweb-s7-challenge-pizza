@@ -1,0 +1,84 @@
+.thank-you-header {
+    background: #CE2829;
+    text-align: center;
+    padding: 10px;
+}
+
+.thank-you-main {
+    height: 100%;
+    background-color: #CE2829;
+}
+
+.siparis-alindi {
+    padding-top: 8%;
+    text-align: center;
+    margin-bottom: 13%;
+}
+
+.siparis-alindi p {
+    font-family: 'Satisfy', cursive;
+    color: #FDC913;
+    font-size: 1.6rem;
+
+}
+
+.siparis-alindi h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 1em;
+}
+
+.thank-you-container {
+    max-width: 50%;
+    padding: 3% 1% 1% 1%;
+    margin: auto;
+}
+
+.siparis-ozeti {
+    color:white;
+    margin: auto;
+    border-top: 1px solid white;
+}
+
+.siparis-ozeti span {
+    font-weight: bold;
+}
+
+.itemized {
+    margin: auto;
+    padding: 10%;
+    max-width: 50%;
+}
+
+.itemized span {
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.ozet-card {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 7% 6%;
+    max-width: 50%;
+    margin: auto;
+}
+
+.secimler-ozet,.total-ozet {
+    display: flex;
+    justify-content: space-between;
+    color: #fff
+}
+
+
+.empty-space {
+    height: 20vh;
+}
+
+.thanks-name {
+    color: #FDC913
+}
+
+.thanks-name span {
+    text-transform: capitalize;
+}

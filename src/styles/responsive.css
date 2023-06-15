@@ -1,0 +1,319 @@
+/*Mobile Query*/
+@media only screen and (max-width: 767px) {
+    .food-cards {
+        display: flex;
+        margin-top: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-cards>div {
+        margin-top: 10%;
+    }
+
+    .home-filtreler {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 5% 0;
+    }
+
+    .header-bar {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 5% 0;
+    }
+
+    .header-icons span {
+        padding-left: 0;
+        font-weight: normal;
+    }
+
+    .header-icons {
+        min-width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        cursor: pointer;
+        flex-direction: column;
+        width: 100%;
+        padding: 3%;
+        margin-bottom: 8%;
+    }
+
+    .footer {
+        display: flex;
+        padding: 40px 0 40px 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer-menu {
+        width: 100%;
+        max-width: 380px;
+        padding: 3%;
+    }
+
+    .half-cols {
+        width: 100%;
+    }
+
+    .hero-banners {
+        height: 85vh;
+        display: flex;
+        align-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .ozel-lezzetus {
+        margin-bottom: 7%;
+        background-repeat: round;
+        padding: 15% 3%;
+    }
+
+    .ozel-lezzetus h2 {
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+
+    .main-container {
+        padding: 10px;
+    }
+
+    .hizli-kurye {
+        background-repeat: round;
+    }
+
+    .hackathlon {
+        background-repeat: round;
+    }
+
+    .kod-aciktirir {
+        margin-top: 10%;
+    }
+
+    .kod-aciktirir h2 {
+        font-size: 2rem;
+    }
+
+    .kod-aciktirir p {
+        font-size: 1.4rem;
+        margin-bottom: -7px;
+    }
+
+    .product-hero-container {
+        max-width: 95% !important;
+        padding: 10% 1% 5% 1% !important;
+    }
+
+    .food-info-price {
+        font-size: 1.3rem!important;
+    }
+
+    .food-info-price span {
+        font-size: .9rem!important;
+    }
+
+    .product-page-container {
+        max-width: 90% !important;
+    }
+
+    .boyut-hamur {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .radio-div {
+        flex-wrap: wrap !important;
+        justify-content: space-evenly !important;
+    }
+
+    .malzemeler {
+        justify-content: space-between!important;
+        font-size: .8em!important;
+        display: grid!important;
+        grid-template-columns: 33% 33% 33%!important;
+        justify-items: stretch!important;
+        max-width: 100%!important;
+        margin: auto!important;
+        align-items: start;
+        padding-left: 5%;
+    }
+
+    .form-check-input[type=checkbox] {
+        width: 30px!important;
+        height: 30px!important;
+        margin-right: 5px!important;
+    }
+
+    .malzemeler .form-check {
+        min-height: 2.5rem!important;
+        padding-right: 0!important;
+    }
+
+    .total-section {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .adet-select {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .adet-select::before {
+        content: "Adet Seçiniz";
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 4%;
+    }
+
+    .thank-you-container {
+        max-width: 100%!important;
+    }
+
+    .itemized {
+        max-width: 85%!important;
+    }
+
+    .ozet-card {
+        padding: 6% 0%!important;
+        max-width: 90%!important;
+    }
+
+    .customer-form {
+            display: flex;
+    flex-direction: column;
+    }
+
+    .home-hero {
+        background-size: cover;
+        height: 40vh;
+    }
+}
+
+.kod-aciktirir button {
+    border: 2px solid #cda20b;
+    box-shadow: 0px 0px 12px 9px #00000069;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .home-hero {
+        background-size: cover;
+        height: 55vh;
+    }
+
+.kod-aciktirir {
+    margin-top: 10%;
+}
+
+.kod-aciktirir h2 {
+    font-size: 2.5rem;
+}
+
+    .header-bar,.home-filtreler {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    min-height: 160px;
+    }
+
+    .header-icons {
+    min-width: 200px;
+    padding-left: 9%;
+    margin-bottom: 9%;
+    margin-top: 9%;
+    justify-content: center;
+}
+
+.header-icons.active {
+    justify-content: center;
+}
+
+   .half-cols {
+        width: 100%;
+    }
+
+    .hero-banners {
+        height: 120vh;
+        display: flex;
+        align-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .ozel-lezzetus {
+margin-bottom: 7%;
+    padding: 21% 9%;
+    background-size: cover;
+    }
+
+    .ozel-lezzetus h2 {
+      font-size: 4.5rem;
+    line-height: 4rem;
+    }
+
+    .main-container {
+        padding: 10px;
+    }
+
+    .hizli-kurye {
+            background-size: cover;
+    padding: 10%;
+    margin-bottom: 7%;
+    }
+
+    .hackathlon {
+            background-size: cover;
+    padding: 10%;
+    margin-bottom: 7%;
+    }
+
+    .food-cards {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .food-cards>div {
+        margin-top: 5%;
+    }
+
+    .food-cards > div h4 {
+        font-size: 1.1rem;
+        min-height: 65px;
+    }
+
+    .food-info-price {
+        font-size: 1.4rem!important;
+    }
+
+    .footer {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .footer-menu h3 {
+        font-size: 2rem;
+    }
+
+    .footer-menu:nth-child(1) p:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .product-hero-container, .product-page-container {
+        max-width: 70%!important;
+        padding: 3% 1% 3% 1%!important;
+    }
+
+    .thank-you-container {
+        max-width: 100%!important;
+    }
+
+}

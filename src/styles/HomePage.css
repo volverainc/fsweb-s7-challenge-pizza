@@ -1,0 +1,328 @@
+.home-hero {
+    background-image: url('../Assets/mvp-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+
+.hero-banners {
+    height: 70vh;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home-page-header {
+    background: #CE2829;
+}
+
+.main-title h1,h2 {
+    color: white
+}
+
+.main-title img {
+    padding-top: 20px;
+}
+
+.kod-aciktirir {
+    text-align: center;
+    margin-top: 10%;
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.kod-aciktirir p {
+    font-family: 'Satisfy', cursive;
+    color: #FDC913;
+    font-size: 1.6rem;
+    margin-bottom: -15px;
+}
+
+.home-food-filter p{
+    font-family: 'Satisfy', cursive;
+    color: rgb(214, 14, 14);
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.home-food-filter h3 {
+    color: #131313;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: -15px;
+}
+
+.kod-aciktirir h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    line-height: 1em;
+}
+
+.kod-aciktirir button {
+    background: #FDC913;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.kod-aciktirir button:hover {
+    color: #FDC913;
+    background-color: black;
+}
+
+.header-bar {
+    min-height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-icons {
+    border-radius: 40px;
+    padding: 4px 10px;
+    min-width: 200px;
+    display: flex;
+    margin-left: 3px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.header-icons span {
+    padding-left: 4%;
+    font-weight:bold;
+}
+
+.home-main-section {
+    background: #faf7f2;
+    padding-top: 5%;
+}
+
+.main-container {
+    padding: 30px;
+}
+
+.ozel-lezzetus {
+    background-image: url('../Assets/adv-aseets/kart-1.png');
+    background-repeat: no-repeat;
+    padding: 10%;
+    border-radius: 10px;
+    height: 79.5%;
+}
+
+.hackathlon {
+    background-image: url('../Assets/adv-aseets/kart-2.png');
+    background-repeat: no-repeat;
+    height: 38%;
+    margin-bottom: 25px;
+    padding: 6%;
+    border-radius: 10px;
+}
+
+.hizli-kurye {
+    background-image: url('../Assets/adv-aseets/kart-3.png');
+    background-repeat: no-repeat;
+    height: 38%;
+    padding: 6%;
+    border-radius: 10px;
+}
+
+.ozel-lezzetus h2 {
+    font-family: 'Quattrocento', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.ozel-lezzetus p {
+    color: white;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: .6px;
+    padding: 20px 0px;
+}
+
+.hackathlon h2 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.hackathlon:hover,.hizli-kurye:hover,.ozel-lezzetus:hover {
+    box-shadow: 0px 0px 5px 3px rgb(182, 182, 182);
+}
+
+.hizli-kurye h2 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #333;
+}
+
+.hizli-kurye span {
+    color: rgb(194, 13, 13)
+}
+
+.half-cols {
+    width: 50%;
+}
+
+.siparis-ver {
+    background: rgb(255, 255, 255);
+    padding: 10px 27px;
+    border: none;
+    border-radius: 40px;
+    font-size: .8em;
+    color: red;
+    font-weight: bold;
+}
+
+.home-filtreler {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.header-icons.active {
+    background: #1f1f1f;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+}
+
+.food-cards {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.food-cards>div {
+    background: white;
+    padding: 20px 40px;
+}
+
+.food-cards > div h4 {
+    padding: 15px 0 5px 0px;
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.food-cards > img {
+    width: 300px;
+}
+
+.food-info-price {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+.comment {
+    width: 20px!important;
+    padding-right: 4px;
+        filter:none!important
+}
+
+.footer {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.copyright {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #c1bfbf;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #8080805e;
+}
+
+.copyright p {
+    width: 65%;
+}
+
+.footer-menu h4 {
+    font-size: 1.4rem;
+    margin-bottom: 10%;
+}
+
+.footer-menu:nth-child(1) img {
+    float:left
+}
+
+.footer-menu:nth-child(1) p {
+    padding: 10px 0;
+}
+
+.footer-menu {
+    width: 33.33%;
+    max-width: 300px;
+    margin: auto;
+    color: white
+}
+
+.footer-menu span {
+    padding-right: 5px
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-menu > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-menu > div img {
+    width: 33.33%; 
+    height: 80px;
+    padding: 4px;
+    cursor:pointer
+}
+
+.footer-menu h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Barlow', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Satisfy', cursive; */
