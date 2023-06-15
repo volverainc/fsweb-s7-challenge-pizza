@@ -31,7 +31,6 @@ const ProductPageForm = () => {
     });
 
     const [totalAmount, setTotalAmount] = useState(null);
-    const [aciktim, setAciktim] = useState([]); /*axios icin*/
     const [valid, setValid] = useState(false);
     const [additionalCost, setAdditionalCost] = useState(0); /*secimler*/
     const redirect = useHistory(); /*siparis onayi sayfasina yonlendirme*/
