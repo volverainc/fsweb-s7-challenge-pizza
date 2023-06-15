@@ -139,15 +139,11 @@ const ProductPageForm = () => {
 
         axios
             .post("https://reqres.in/api/users", pizzaForm)
-            .then((res) => {
-                setAciktim([...aciktim, res.data])
-                console.log(res.data);
-                console.log(pizzaForm);
-            })
             .catch((error) => {
                 console.error("hata var", error);
             });
-
+            
+        console.log(pizzaForm);
         console.log(foodName)
 
         // ThankYouPage'e yonelt ve datayi tasi
